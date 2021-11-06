@@ -52,3 +52,5 @@ GO
 SELECT * FROM HumanResources.Employee he
 INNER JOIN Purchasing.PurchaseOrderHeader po
 on he.BusinessEntityID = po.EmployeeID
+
+GO
